@@ -597,6 +597,88 @@ ABOUT ME SECTION
   margin-top: -40px;
 }
 
+.about-section .languages {
+  padding: 0 0 40px;
+}
+.about-section .languages .lang-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+.about-section .languages .lang-item p {
+  font-size: 16px;
+  color: var(--text-black-600);
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+.about-section .languages .lang-item .progress {
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.about-section .languages .lang-item .progress-bar {
+  background-color: var(--skin-color);
+  height: 6px;
+  left: 7px;
+  top: 7px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.about-section .languages .lang-item .progress-bar span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-black-600);
+  margin-top: -40px;
+}
+
+/*.about-section .languages .row {
+  align-items: center;
+}
+
+.about-section .languages .language-item {
+  padding-left: 50px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 30px;
+  margin-bottom: 40px;
+}
+
+.about-section .languages .language-item .language-progress {
+  border-radius: 10px;
+  padding-left: 30px;
+  position: relative;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.about-section .languages .language-item .language-progress div {
+  border: 15px solid var(--skin-color);
+  border-radius: 50%;
+  left: 50%;
+  top: -120px;
+  display: inline-block;
+}
+
+.about-section .languages .language-item .language-progress p {
+  font-size: 16px;
+  color: var(--text-black-600);
+  line-height: 26px;
+  margin: 15px 0 0;
+}
+
+.about-section .languages .language-item .language-progress .not {
+  border: 15px solid var(--text-black-300);
+  border-radius: 50%;
+  left: 50%;
+  top: -120px;
+  display: inline-block;
+}*/
+
 .about-section .education,
 .about-section .experience {
   padding-bottom: 80px;
@@ -662,10 +744,10 @@ ABOUT ME SECTION
 
 .about-section .timeline .timeline-item-inner span {
   font-weight: 500;
+  font-size: 20px;
   color: var(--skin-color);
   display: block;
   margin: 0 0 10px;
-  text-transform: capitalize;
 }
 
 .about-section .timeline .timeline-item-inner:before {
@@ -693,11 +775,10 @@ ABOUT ME SECTION
 }
 
 .about-section .timeline .timeline-item-inner h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--text-black-700);
   font-weight: 600;
   margin: 0 0 5px;
-  text-transform: capitalize;
 }
 
 .about-section .timeline .timeline-item-inner h4 {
@@ -712,4 +793,9 @@ ABOUT ME SECTION
   color: var(--text-black-600);
   line-height: 26px;
   margin: 15px 0 0;
+}
+
+.about-section .timeline .timeline-item-inner li {
+  font-size: 16px;
+  color: var(--text-black-600);
 }
